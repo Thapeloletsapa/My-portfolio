@@ -45,7 +45,7 @@ html {
 
 
 body {
-   background:url("/my-portfolio/images/clouds.jpg");
+   background:url("images/clouds.jpg");
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -299,7 +299,7 @@ header {
 .my-services {
     
     /*background-color: var(--clr-dark); /*add accent instead of darl*/
-    background-image: url("/my-portfolio/images/matrix.jpg"); /* add a picture of services*/
+    background-image: url("images/matrix.jpg"); /* add a picture of services*/
     background-size: cover;
     background-blend-mode: multiply; /* you can play around with the muliply to make it dark or remove it (accent) completely*/
     color: var(--clr-light);
@@ -404,7 +404,7 @@ header {
     /*max-width: 0 auto; to keep it centered on the screen */
 }
 .portfolio__item {
-    background-image: url("/my-portfolio/images/town.night.jpg");
+    background-image: url("images/town.night.jpg");
     overflow: hidden;
 }
 .portfolio__img {
